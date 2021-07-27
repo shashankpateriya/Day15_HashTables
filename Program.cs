@@ -20,4 +20,5 @@ namespace Day15_HashTables
             frequency.Freqncy(hash);
         }
     }
+
 }

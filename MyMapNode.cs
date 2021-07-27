@@ -15,6 +15,7 @@ namespace Day15_HashTables
             this.items = new LinkedList<KeyValue<K, V>>[size];
         }
 
+
         public int GetArrayPosition(K key)
         {
             int position = key.GetHashCode() % size;
